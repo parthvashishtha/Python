@@ -1,1 +1,5 @@
-
+a = input("Enter first number for addition :")
+a = int(a)
+b = input("Enter second number for addition :")
+b = int(b)
+print("Addition is :",a+b)
