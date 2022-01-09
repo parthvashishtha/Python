@@ -1,1 +1,10 @@
+current = "my name is Parth Sharma and currently I'm learning python from youtube."
 
+# String Functions
+
+print (len(current))
+print (current.endswith("youtube."))
+print (current.count("m"))
+print (current.capitalize())
+print (current.find("name"))
+print (current.replace("Sharma","Vashishtha"))
