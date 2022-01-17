@@ -1,1 +1,5 @@
+def greet(name = "Stranger"): # here stranger is working as a default parameter
+    print( "Hello "+ name)
 
+greet("Parth")
+greet()
