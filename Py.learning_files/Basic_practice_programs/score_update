@@ -1,1 +1,10 @@
+def game():
+    return 67
 
+score = game()
+with open("hyscore.txt") as f:
+    hyscore= int(f.read())
+
+if hyscore < score:
+    with open("hyscore.txt","w") as f:
+        f.write(str(score))        
