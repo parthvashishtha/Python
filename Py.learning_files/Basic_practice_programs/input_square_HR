@@ -1,1 +1,9 @@
 
+from ast import For
+
+
+n = int(input("Enter the number upto which you want the square\n"))
+
+for i in range(0,n):
+    print(i*i)
+
