@@ -1,0 +1,7 @@
+Centi = int(input("Enter the length in 'cm' for conversion in 'm' and 'km':\n"))
+
+Met = Centi/100
+Kilo= Centi/100000
+
+print("Converted length in 'm' is:",Met)
+print("Converted length in 'km' is:",Kilo)
